@@ -16,7 +16,11 @@ export class NewsAPI extends Component {
 
 
     async componentDidMount() {
-        this.updateLinks()
+        if(!this.props.activeTicker){ 
+            return 
+        } else {
+            this.updateLinks()
+        }
     }
 
  
