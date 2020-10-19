@@ -15,7 +15,7 @@ export class NewsAPI extends Component {
     }
  
     updateLinks = async () => {
-        if(this.props.activeTicker === null) return
+        if(this.props.activeTicker === null || this.props.activeTicker === undefined) return
         if(this.props.activeTicker) {
             const data = await newsAPI(this.props.activeTicker)
             const articleDict = {}
