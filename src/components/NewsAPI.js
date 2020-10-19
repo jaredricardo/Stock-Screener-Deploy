@@ -13,17 +13,6 @@ export class NewsAPI extends Component {
             newsList:[]
         }
     }
-
-
-    async componentDidMount() {
-        if(!this.props.activeTicker){ 
-            return 
-        } else {
-            this.updateLinks()
-        }
-    }
-
- 
  
     updateLinks = async () => {
         if(this.props.activeTicker === null) return
