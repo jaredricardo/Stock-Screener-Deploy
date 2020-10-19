@@ -1,0 +1,31 @@
+export function createNode(ch) {
+    this.ch = ch
+    this.isTerminal = false
+    this.map = {}
+    this.words = []
+}
+
+export function add(str, i, root) {
+
+    if(i === str.length) {
+        root.isTerminal = true
+        return 
+    }
+
+    if(!root.map[str[i]]) 
+        root.map[str[i]] = new createNode(str[i])
+    
+    root.words.push(str)
+    add(str, i + 1, root.map[str[i]])
+}
+
+export function suggest(str, i, root) {
+
+    if(i === str.length)  
+        return root.words
+    
+    if(!root.map[str[i]]){
+        return []
+    }
+    return suggest(str, i + 1, root.map[str[i]])
+} 

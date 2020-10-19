@@ -1,0 +1,317 @@
+        /* GENERAL  */
+
+.content-container {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+/* TICKER LIST RELATED CSS */
+
+#ticker{
+    position: relative;
+    height: 410px;
+    width: 100%;
+    
+}
+
+.ticker-map-container {
+    position: relative;
+    height: 72%;
+    overflow: scroll;
+}
+
+
+#ticker h5 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ticker-row {
+    border-bottom: 1px solid #dadada;
+}
+
+.ticker-row:hover {
+    opacity: .9;
+    border-radius: 4px;
+    background-color:#dadada;
+}
+
+.ticker-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add-ticker-row {
+    padding-top: 20px;
+}
+
+#submit-form {
+    border:none;
+}
+
+#submit-form:focus {
+    border:none;
+    outline: #58c43b;
+ }
+
+ #submit-btn {
+    /* border-radius: 5px; */
+    text-align: center;
+    /* padding: 5px 10px; */
+    outline: none;
+    font-size: 15x;
+    border: none;
+    background-color:  #58c43b;
+    margin-left: 10px;
+    color:white;
+}
+
+#submit-btn:hover{
+    background-color:#4eb134;
+}
+
+.remove-ticker-btns {
+    height: 20px;
+    width: 20px;
+    /* border-radius: 20px; */
+    border:none;
+    background-color: transparent;
+    opacity: .4;
+}
+
+.remove-ticker-btns:hover{
+    opacity: 1;
+}
+
+.remove-ticker-btns:focus {
+    outline: none;
+}
+
+
+.ticker-btns {
+    text-align: center;
+    /* padding: 5px 10px; */
+    outline: none;
+    margin-left:5px;
+    margin-right: 5px;
+    font-size: 15x;
+    border: none;
+    background-color: #58c43b;
+    color:white;
+}
+
+.ticker-btns:hover {
+    background-color:#4eb134;
+}
+
+.suggestion-box {
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 100%;
+}
+
+.suggestion-row-item {
+    font-weight: 500;
+}
+
+.suggestion-row-item:hover {
+    background-color: #dadada;
+}
+
+
+
+/* FINANCIAL DATA RELATED CSS */
+
+#ratios {
+    position: relative;
+    height: 830px;
+    width: 100%;
+}
+
+#ratios h5 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.ratio-list-container {
+    height: 84%;
+    position: relative;
+    overflow: scroll;
+
+}
+
+.ratio-list-container ul {
+    list-style-type: none;
+}
+
+
+.ratio-type {
+   font-weight: bold;
+}
+
+.ratio-value {
+    font-weight: 100;
+}
+
+.ratio-row-item {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px #dadada dashed;
+
+}
+
+.ratio-row-item:hover {
+    opacity: .8;
+    border-radius: 2px;
+    background-color:#dadada;
+}
+
+.ratio-btn-container {
+    margin-top:40px;
+}
+.ratio-btns {
+    text-align: center;
+    /* padding: 5px 10px; */
+    outline: none;
+    margin:5px;
+    min-width: 110px;
+    font-size: 15x;
+    border: none;
+    background-color: #58c43b;
+    color:white;
+}
+
+.ratio-btns:hover {
+    background-color:#4eb134;
+}
+
+
+/* GRAPH RELATED CSS */
+
+#graph {
+    min-height: 410px;
+    width: 100%;
+}
+
+
+.graph-btns{
+    /* border-radius: 5px; */
+    text-align: center;
+    /* padding: 5px 10px; */
+    outline: none;
+    margin: 14px 5px;
+    font-size: 15x;
+    border: none;
+    background-color: #58c43b;
+    color:white;
+}
+
+.graph-btns:hover {
+    background-color:#4eb134;
+}
+
+
+.graph-btn-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ 
+/* NEWS RELATED CSS */
+
+#news {
+    height: 830px;
+    width: 100%;
+}
+
+#news h5 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.news-container {
+    height: 88%;
+    width: 100%;
+    overflow: scroll;
+}
+
+
+#news-publishers {
+    font-weight: bold;
+    color: black;
+}
+
+#news-publish-date {
+    color:black;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+#news-publishers {
+    padding-top: 10px;
+}
+
+#news-publish-date {
+    padding-bottom: 5px;
+}
+
+#news-title {
+    padding-bottom: 10px;
+}
+
+
+.news-row-item {
+    border-bottom: 1px solid #dadada;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+.news-row-item:hover {
+    opacity: .8;
+    border-radius: 2px;
+    background-color:#dadada;
+}
+
+
+/* MEDIA QEURIES  */
+
+
+/* @media only screen and (max-width: 1400px) {
+    #submit-btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #submit-btn {
+        display: inline;
+    }
+} */
+
+ 
+/* NOW UNUSED ^^  */
+
+
+/* 
+    TO DO: 
+
+    add error handing for addticker (b/c of low API limit)
+
+    fix save state of active active ratios // add local storage for ticker list / ratios list 
+
+    add redux / global state for active ticker 
+
+    add browser history 
+
+    implement binary search autocomplete for tickers  
+
+    */
+
+
+
+
