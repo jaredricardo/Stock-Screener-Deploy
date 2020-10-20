@@ -58,9 +58,7 @@ export class NewsAPI extends Component {
     }
 
     componentDidUpdate(prevProps) {
-        if(prevProps.activeTicker === undefined) {
-            return 
-        } else if(prevProps.activeTicker !== this.props.activeTicker && prevProps.activeTicker != undefined){
+        if(prevProps.activeTicker !== this.props.activeTicker){
             console.log(this.props.activeTicker)
             console.log(prevProps)
             this.updateLinks()
