@@ -69,7 +69,7 @@ export class NewsAPI extends Component {
     render() {
 
         const newsList = this.state.newsList
-
+        
         const newsListMap = newsList.map((item) => {
 
             const img = <img src={item.imgURL} height="50" width="50" style={{objectFit:"cover"}} />
@@ -119,7 +119,15 @@ export class NewsAPI extends Component {
 
             <Container className="news-container"> 
 
-                {newsListMap}
+                {/* {newsListMap} */}
+                <p>
+                    Unfortunately News API enables CORS only for localhost when using the free / developer model as I have, 
+                    thus I cannot dynamically display news articles via this github deployment (unless I pay nearly $500/month). 
+                    Please view the source code and / or refer to the portfolio section of my personal website for a video demonstrating the News API as intended :-) 
+                    <br></br>
+                    <br></br>
+                    <a href="https://www.jaredricardo.io" target="_blank"> Jaredricardo.io </a>
+                </p>
             
             </Container>
              
