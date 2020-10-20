@@ -123,7 +123,6 @@ export class FinancialRatios extends Component {
     
     render() {
      
-        console.log(this.state.ratioList)
         const currentDisplay = this.state.currentDisplay
         const ratioData = []
         const checkBoxes = []
