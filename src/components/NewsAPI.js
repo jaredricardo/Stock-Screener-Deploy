@@ -13,12 +13,23 @@ export class NewsAPI extends Component {
             newsList:[]
         }
     }
+    
+   async componentDidMount(){
+        if(this.props.activeTicker === undefined) {
+            return
+        } else {
+            this.updateLinks()
+        }
+    }
+ 
  
     updateLinks = async () => {
         if(this.props.activeTicker === null || this.props.activeTicker === undefined) {
             return
         } else {
+          
             const data = await newsAPI(this.props.activeTicker)
+           
             const articleDict = {}
             data.articles.forEach((article) => {
                 articleDict[article.publishedAt] = {
@@ -41,13 +52,17 @@ export class NewsAPI extends Component {
                 newsList: Object.values(ordered).slice(10, 10 + numbOfArticles).reverse() 
                 // in the above set state, reverse method creates descending order of of articles (most recent first)
                 // and the slice method slices out the oldest 10 articles from the api, leaving only the newest 20. 
-                // It's worth mentioned that the API sends articles in batches of 20, hence the 10/10 split. 
+                // It's worth mentioning that the API sends articles in batches of 20, hence the 10/10 split. 
             })
         }
     }
 
     componentDidUpdate(prevProps) {
-        if(prevProps.activeTicker !== this.props.activeTicker){
+        if(prevProps.activeTicker === undefined) {
+            return 
+        } else if(prevProps.activeTicker !== this.props.activeTicker && prevProps.activeTicker != undefined){
+            console.log(this.props.activeTicker)
+            console.log(prevProps)
             this.updateLinks()
         }
     }
