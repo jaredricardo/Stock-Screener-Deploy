@@ -46,7 +46,7 @@ export class NewsAPI extends Component {
         }
     }
 
-    async componentDidUpdate(prevProps) {
+    componentDidUpdate(prevProps) {
         if(prevProps.activeTicker !== this.props.activeTicker){
             this.updateLinks()
         }
