@@ -51,7 +51,6 @@ export class NewsAPI extends Component {
         }
     }
 
-  
 
     render() {
 
@@ -92,7 +91,7 @@ export class NewsAPI extends Component {
         })
 
         const newsBanner = () => {
-            if(this.props.activeTicker === null) {
+            if(this.props.activeTicker === null || this.props.activeTicker === undefined) {
                 return <h5> Select ticker for news </h5>
             } else {
                 return <h5> News for {this.props.activeTicker} </h5>
