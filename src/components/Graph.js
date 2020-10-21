@@ -55,7 +55,7 @@ export class Graph extends Component {
 
     clickHandlers = (e) => {
         if (this.props.activeTicker === undefined) {
-            alert("No active ticker seleceted")
+            alert("No active ticker selected. Please choose a ticker from your ticker list.")
         } else if(e.target.value === "one") {
             return this.handleClickDaily()
         } else if (e.target.value === "thirty") {

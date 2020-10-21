@@ -121,12 +121,18 @@ export class NewsAPI extends Component {
 
                 {/* {newsListMap} */}
                 <p>
-                    Unfortunately News API only enables CORS for localhost when using the free, developer model as I am, 
+                    Unfortunately, News API only enables CORS for localhost when using the free, developer model as I am, 
                     thus I cannot dynamically display news articles via this github deployment (unless I pay $500/month). 
                     Please view the source code and / or refer to the portfolio section of my personal website for a video demonstrating the News API as intended :-) 
                     <br></br>
                     <br></br>
                     <a href="https://www.jaredricardo.io" target="_blank"> Jaredricardo.io </a>
+                    <br></br>
+                    <br></br>
+                    Additionally, the finance API I’m using for the stock information only allows 5 queries per minute 
+                    for the free, developer version. This means an update function for the ticker information will not
+                     be called on reload, nor will you be able query for financial information indefinitely (add tickers, 
+                     get new graph information, etc). 
                 </p>
             
             </Container>
