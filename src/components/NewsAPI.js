@@ -121,8 +121,8 @@ export class NewsAPI extends Component {
 
                 {/* {newsListMap} */}
                 <p>
-                    Unfortunately News API enables CORS only for localhost when using the free / developer model as I have, 
-                    thus I cannot dynamically display news articles via this github deployment (unless I pay nearly $500/month). 
+                    Unfortunately News API only enables CORS for localhost when using the free, developer model as I am, 
+                    thus I cannot dynamically display news articles via this github deployment (unless I pay $500/month). 
                     Please view the source code and / or refer to the portfolio section of my personal website for a video demonstrating the News API as intended :-) 
                     <br></br>
                     <br></br>

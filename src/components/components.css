@@ -281,37 +281,16 @@
 /* MEDIA QEURIES  */
 
 
-/* @media only screen and (max-width: 1400px) {
-    #submit-btn {
-        display: none;
+@media screen and (max-width: 410px) {
+    .ticker-btns{
+        
+        padding: 0px 1px;
+    }
+    #submit-form {
+        max-width: 140px;
+    }
+    .graph-btns {
+        margin: 12px 4px;
+        padding: 0 2px;
     }
 }
-
-@media only screen and (max-width: 1200px) {
-    #submit-btn {
-        display: inline;
-    }
-} */
-
- 
-/* NOW UNUSED ^^  */
-
-
-/* 
-    TO DO: 
-
-    add error handing for addticker (b/c of low API limit)
-
-    fix save state of active active ratios // add local storage for ticker list / ratios list 
-
-    add redux / global state for active ticker 
-
-    add browser history 
-
-    implement binary search autocomplete for tickers  
-
-    */
-
-
-
-
