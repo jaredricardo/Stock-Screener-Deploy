@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b274328e14ce94a7fe84df34ae8eae4",
+    "revision": "a832287dea6fb45b32873d90c5d4524b",
     "url": "/Stock-Screener-Deploy/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Stock-Screener-Deploy/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "b52c7ed5258821ef73e7",
-    "url": "/Stock-Screener-Deploy/static/css/main.01a3efd2.chunk.css"
+    "revision": "d6570339bed921865a91",
+    "url": "/Stock-Screener-Deploy/static/css/main.1748eae5.chunk.css"
   },
   {
     "revision": "1da4a466f72e01ceefc8",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Stock-Screener-Deploy/static/js/2.6d546494.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b52c7ed5258821ef73e7",
-    "url": "/Stock-Screener-Deploy/static/js/main.ab84e6a2.chunk.js"
+    "revision": "d6570339bed921865a91",
+    "url": "/Stock-Screener-Deploy/static/js/main.056a79b2.chunk.js"
   },
   {
     "revision": "b481f24f20d77d4b8ade",
