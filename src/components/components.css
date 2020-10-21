@@ -293,4 +293,7 @@
         margin: 12px 4px;
         padding: 0 2px;
     }
+    .ratio-btns {
+        font-size: 14px;
+    }
 }
