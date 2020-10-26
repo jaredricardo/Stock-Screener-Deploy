@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Stock-Screener-Deploy/static/css/main.2bf2868b.chunk.css",
-    "main.js": "/Stock-Screener-Deploy/static/js/main.056a79b2.chunk.js",
-    "main.js.map": "/Stock-Screener-Deploy/static/js/main.056a79b2.chunk.js.map",
+    "main.js": "/Stock-Screener-Deploy/static/js/main.0fa2dbc1.chunk.js",
+    "main.js.map": "/Stock-Screener-Deploy/static/js/main.0fa2dbc1.chunk.js.map",
     "runtime-main.js": "/Stock-Screener-Deploy/static/js/runtime-main.9fd8fc65.js",
     "runtime-main.js.map": "/Stock-Screener-Deploy/static/js/runtime-main.9fd8fc65.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/Stock-Screener-Deploy/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.6d546494.chunk.js": "/Stock-Screener-Deploy/static/js/2.6d546494.chunk.js",
     "static/js/2.6d546494.chunk.js.map": "/Stock-Screener-Deploy/static/js/2.6d546494.chunk.js.map",
     "index.html": "/Stock-Screener-Deploy/index.html",
-    "precache-manifest.5fbd484c3b1379605b15fe742338450b.js": "/Stock-Screener-Deploy/precache-manifest.5fbd484c3b1379605b15fe742338450b.js",
+    "precache-manifest.e0000d3a15020340fac07260afe5c4d0.js": "/Stock-Screener-Deploy/precache-manifest.e0000d3a15020340fac07260afe5c4d0.js",
     "service-worker.js": "/Stock-Screener-Deploy/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/Stock-Screener-Deploy/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.2bf2868b.chunk.css.map": "/Stock-Screener-Deploy/static/css/main.2bf2868b.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.6d546494.chunk.js",
     "static/css/main.2bf2868b.chunk.css",
-    "static/js/main.056a79b2.chunk.js"
+    "static/js/main.0fa2dbc1.chunk.js"
   ]
 }

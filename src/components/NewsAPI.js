@@ -126,7 +126,7 @@ export class NewsAPI extends Component {
                     Please view the source code and / or refer to the portfolio section of my personal website for a video demonstrating the News API as intended :-) 
                     <br></br>
                     <br></br>
-                    <a href="https://www.jaredricardo.io" target="_blank"> Jaredricardo.io </a>
+                    <a href="https://jaredricardo.io/" target="_blank"> Jaredricardo.io </a>
                     <br></br>
                     <br></br>
                     Additionally, the finance API I’m using for the stock information only allows 5 queries per minute 
